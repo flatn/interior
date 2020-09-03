@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kolir Studio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+
+    <!--    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" crossorigin="anonymous">-->
+    <!--    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css" crossorigin="anonymous">-->
+    <!--    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css" crossorigin="anonymous">-->
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="./img/favicon.ico">
+
+    <!--    <script src="./bootstrap/js/jquery-3.5.1.min.js" crossorigin="anonymous"></script>-->
+    <!--    <script src="./bootstrap/js/bootstrap.bundle.js" crossorigin="anonymous"></script>-->
+    <!--    <script src="bootstrap/js/bootstrap.js" crossorigin="anonymous"></script>-->
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!--<nav class="navbar position-absolute navbar-expand-lg navbar-light">-->
+<!--    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"-->
+<!--            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--        <span class="navbar-toggler-icon"></span>-->
+<!--    </button>-->
+
+<!--    <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--        <ul class="navbar-nav ml-auto font-weight-light">-->
+<!--            <li class="nav-item p-md-4">-->
+<!--                <a class=" rus nav-link  font-weight-bold" href="#about">О нас</a>-->
+<!--                <a class=" ukr nav-link  font-weight-bold" href="#about1">О нас</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item p-md-4">-->
+
+
+<!--            </li>-->
+<!--            <li class="nav-item p-md-4">-->
+<!--                <a class=" rus nav-link  font-weight-bold" href="#contact">Контакты</a>-->
+<!--                <a class=" ukr nav-link  font-weight-bold" href="#contact1">Контакти</a>-->
+<!--            </li>-->
+<!--            <li class=" switcher nav-item d-flex p-md-4">-->
+<!--                <a class="nav-link text-black-50 font-weight-bolder" href="#" id="rusSwitcher">Рус.</a>-->
+<!--                <a class="nav-link text-black-50 font-weight-bolder" href="#" id="ukrSwitcher">Укр.</a>-->
+<!--            </li>-->
+
+<!--        </ul>-->
+<!--    </div>-->
+<!--</nav>-->
+
+
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="/"><img src="./img/logo.svg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item p-md-4">
+                <a class=" rus nav-link  font-weight-bold" href="#about">О нас</a>
+                <a class=" ukr nav-link  font-weight-bold" href="#about1">О нас</a>
+            </li>
+            <li class="nav-item p-md-4">
+
+                <a class=" rus nav-link  font-weight-bold" href="#product">Продукция</a>
+                <a class=" ukr nav-link  font-weight-bold" href="#product1">Продукція</a>
+
+            </li>
+            <li class="nav-item p-md-4">
+
+                <a class=" rus nav-link  font-weight-bold" href="#contact">Контакты</a>
+                <a class=" ukr nav-link  font-weight-bold" href="#contact1">Контакти</a>
+            </li>
+            <li class="switcher nav-item d-flex p-md-4">
+                <a class="nav-link text-black-50 font-weight-bolder" href="#" id="rusSwitcher">Рус.</a>
+                <a class="nav-link text-black-50 font-weight-bolder" href="#" id="ukrSwitcher">Укр.</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!--<section class="bg-orange wh-100 d-flex">-->
+
+<!--    <img src="img/main_top.jpeg" alt="гостинная" class="img-fluid wh-100 dis">-->
+
+<!--    <div class="m-auto d-block">-->
+<!--        <img src="img/logo.png" alt="kolir" class="d-block m-auto img-fluid">-->
+<!--        <h1 class=" rus text-white font-italic font22 mx-5 mx-md-0">Наполни свой интерьер цветом, добавь ему-->
+<!--            акцентов</h1>-->
+<!--        <h1 class=" ukr text-white font-italic font22 mx-5 mx-md-0">Вдягни свій iнтер’єр у колiр, додай йому-->
+<!--            акцентів</h1>-->
+<!--    </div>-->
+
+<!--</section>-->
+<section class=" wh-100 d-flex container">
+    <div class="row">
+        <div class="col-12 col-md-4 col-lg-6 d-flex align-items-center">
+            <img src="img/main.png" alt="" class="img-fluid">
+
+        </div>
+        <div class="col-12 col-md-8 col-lg-6 d-flex align-items-center">
+            <div class="m-auto d-block">
+                <h1 class="ptserif rus gray-color font38 f-30 mx-5 mx-md-0"><span class="black font56 ">Наполни</span>
+                    <br class="bra">свой интерьер
+                    <span class="colorful">цветом <img class="circles" src="./img/circles.svg" alt="circles"></span>
+                </h1>
+
+                <h1 class="ptserif ukr gray-color font38 mx-5 mx-md-0"><span class="black font56">Вдягни</span>
+                    <br>свій iнтер’єр у
+                    <span class="colorful">колiр <img class="circles" src="./img/circles.svg" alt="circles"></span>
+                </h1>
+
+
+                <div class="d-flex align-items-center mt-5 jc">
+                    <p class="m-0 p-0 mr-3 font22 gray-color">Добавь ему акцентов</p>
+                    <a href="#about"><img src="./img/Gr.svg" class="img-fluid" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <h2 id="about" class="rus text-center font-weight-bold font38 gray-color mt-5 mb-4 pt-5"><span
+            class="outline">KOLIR</span> studio
+        — это:</h2>
+    <h2 id="about1" class=" ukr text-center font-weight-bold font38 gray-color mt-5 mb-4 pt-5"><span
+            class="outline">KOLIR</span> studio
+        — це:</h2>
+
+    <!--    <div class="d-flex justify-content-center">-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card mx-2 mb-3">
+                    <img class="card-img-top img-maxwidth m-auto pt-4 pb-3" src="./img/question.svg" alt="question">
+                    <div class="card-body pb-4">
+                        <p class="rus card-text text-center text-color-dark">Помощник в выборе отделочных материалов:
+                            пол,
+                            плитка,
+                            обои, текстиль</p>
+                        <p class=" ukr card-text text-center text-color-dark">Помічник у виборі : підлоги,
+                            плитки, шпалер
+                            текстилю</p><br class="ukr">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card mx-2 mb-3">
+                    <img class="card-img-top img-maxwidth m-auto pt-4 pb-3" src="./img/develop.svg" alt="dev">
+                    <div class="rus card-body pb-4">
+                        <p class="card-text text-center text-color-dark">Партнер в создании вашего индивидуального
+                            проекта </p><br>
+                    </div>
+                    <div class=" ukr card-body pb-4">
+                        <p class="card-text text-center text-color-dark">Партнер у створенні вашого індивідуального
+                            проєкту </p><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card mx-2 mb-3">
+                    <img class="card-img-top img-maxwidth m-auto pt-4 pb-3" src="./img/heart.svg" alt="soul">
+                    <div class=" rus card-body pb-4">
+                        <p class="card-text text-center text-color-dark">Ваша моральная и креативная поддержка во
+                            всех
+                            тонкостях
+                            ремонта и дизайна интерьера</p>
+                    </div>
+                    <div class=" ukr card-body pb-5">
+                        <p class="card-text text-center text-color-dark">Ваша моральна і креативна підтримка у всіх
+                            тонкощах ремонту та дизайну інтер'єру</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <h2 class="rus text-center font-weight-bold font38 gray-color mt-5 mb-4 pt-5">Создадим проект вместе?</h2>
+    <h2 class="ukr text-center font-weight-bold font38 gray-color mt-5 mb-4 pt-5">Створимо проєкт разом?</h2>
+    <div class="rus">
+        <img class="m-auto d-block img-fluid" src="img/Group_99.svg" alt="">
+    </div>
+    <div class="ukr">
+        <img class="m-auto d-block img-fluid" src="img/Group_99_1.svg" alt="">
+    </div>
+
+</section>
+<section class="container mt-5">
+    <div class=" row justify-content-center text-center">
+        <div class="col-6 col-md-4">
+            <div class="dot mx-auto">+1456</div>
+            <h4 class=" rus gray-color font18">Довольных<br> клиентов</h4>
+            <h4 class=" ukr gray-color font18">Задоволених<br> клієнтів</h4>
+        </div>
+
+        <div class="col-6 col-md-4 ">
+            <div class="dot mx-auto">+96</div>
+            <h4 class=" rus gray-color font18">Партнеров<br> по миру</h4>
+            <h4 class=" ukr gray-color font18">Партнерів<br> по світу</h4>
+        </div>
+
+        <div class=" col-6 col-md-4">
+            <div class="dot mx-auto">100%</div>
+            <h4 class=" rus gray-color font18">Креативность <br> команды</h4>
+            <h4 class=" ukr gray-color font18">Креативність <br> команди</h4>
+        </div>
+    </div>
+</section>
+<section>
+    <h2 id="product" class=" rus text-center font-weight-bold font38 gray-color mt-5 mb-5 pb-3 pt-5">Продукция</h2>
+    <h2 id="product1" class=" ukr text-center font-weight-bold font38 gray-color mt-5 mb-5 pb-3 pt-5">Продукція</h2>
+    <div class="container">
+        <div class="row font18">
+            <div class="col-md-6">
+                <div id="carousel1" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner border-carousel">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/pic1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/pic2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/pic3.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+
+                <div class=" rus gray-color max-width-330 pt-4 pt-md-0">
+                    <p><span class="text-orange font-weight-bolder">Проектирование</span> — первый этап ремонтных работ.
+                    </p>
+                    <p>Прежде чем что-то ломать или строить, стоит создать целостную картинку помещения: стиль, цвет,
+                        конструктив, функциональность и эргономика.</p>
+                </div>
+                <div class=" ukr gray-color max-width-330 pt-4 pt-md-0">
+                    <p><span class="text-orange font-weight-bolder">Проєктування</span> — перший етап ремонтних робіт.
+                    </p>
+                    <p>Перш ніж щось ламати чи будувати, варто створити цілісну картину приміщення: стиль, колір,
+                        конструктив, функціональність та ергономіка.</p>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row flex-column-reverse flex-lg-row">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="ukr gray-color max-width-330 pt-4 pt-md-0">
+                            <p><span class="text-orange font-weight-bolder">Підбір :</span> підлоги, плитки, шпалер і
+                                штор.
+                            </p>
+                            <p>Все це з урахуванням ваших побажань, концепції проєкту та актуальних тенденцій в світі
+                                дизайну.</p>
+                        </div>
+                        <div class="rus gray-color max-width-330 pt-4 pt-md-0">
+                            <p><span class="text-orange font-weight-bolder">Подбор отделочных материалов:</span> пол,
+                                плитка, обои, шторы.</p>
+                            <p>Все это с учетом ваших пожеланий, концепции проекта и актуальных тенденций в мире
+                                дизайна.</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div id="carousel2" class="carousel slide" data-ride="carousel">
+
+                            <div class="carousel-inner border-carousel2">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="./img/pic4.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="./img/pic5.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="./img/pic6.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div id="carousel3" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner border-carousel">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/pic7.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/pic8.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/pic9.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+
+                <div class=" rus gray-color max-width-330 pt-4 pt-md-0">
+                    <p><span class="text-orange font-weight-bolder">Заказ, производство и монтаж мебели</span>: кухни,
+                        гостиные,
+                        спальни, детские, санузлы, шкафы и гардеробные, столы и стулья, диваны и кресла, освещение. 
+                    </p>
+
+                </div>
+
+                <div class=" ukr gray-color max-width-330 pt-4 pt-md-0">
+                    <p><span class="text-orange font-weight-bolder">Замовлення, виробництво та монтаж меблів</span>:
+                        кухні, вітальні, спальні, дитячі, санвузли, шафи та гардеробні, столи та стільці, дивани та
+                        крісла, освітлення.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<!--<section class=" pt-5 mt-5 pb-5 mb-4">-->
+<!--</section>-->
+
+
+<section class="bg-kiev pb-5 pt-5 mt-5">
+
+    <div class=" rus container bg-white p-5 toppadding shadow">
+        <h3 id="contact" class="font64">Свяжитесь с нами</h3>
+        <div class="row ">
+            <div class="col-12 col-md-6">
+                <form>
+                    <div class="form-group mt-4">
+                        <input type="text" class="form-control" placeholder="Ваше имя*" required>
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="text" class="form-control" placeholder="Телефон*" required>
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="text" class="form-control" placeholder="Сообщение">
+                    </div>
+                    <div class="input-group mt-4">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="inputGroupFile01">
+                            <label class="custom-file-label" for="inputGroupFile01">Прикрепить файл</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-orange mt-4 text-center">Отправить</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 mt-5 mt-md-0">
+
+                <div class="ml-5">
+
+                    <div class="my-2">
+                        <h4 class="colo-b">Адрес</h4>
+                        <p class="gray-color">г. Киев, ул. В. Черновола 1, 3 этаж</p>
+                    </div>
+
+                    <div class="my-5">
+                        <h4 class="colo-b">Контакты</h4>
+                        <p class="gray-color m-1">kiev@vg-group.com</p>
+                        <p class="gray-color m-1">+38 (050) 315 91 91</p>
+                        <p class="gray-color m-1">vg-group.com</p>
+                    </div>
+
+                    <div class="d-flex">
+                        <a href="#" class="m-2"><img src="./img/insta.svg" alt="instagram"></a>
+                        <a href="#" class="m-2"><img src="./img/facebook.svg" alt="instagram"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" ukr container bg-white p-5 toppadding shadow">
+        <h3 id="contact1" class="font64">Зв'яжіться з нами</h3>
+        <div class="row ">
+            <div class="col-12 col-md-6">
+                <form>
+                    <div class="form-group mt-4">
+                        <input type="text" class="form-control" placeholder="Ваше ім'я*" required>
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="text" class="form-control" placeholder="Телефон*" required>
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="text" class="form-control" placeholder="Повідомлення">
+                    </div>
+                    <div class="input-group mt-4">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="inputGroupFile02">
+                            <label class="custom-file-label" for="inputGroupFile02">Додати файл</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-orange mt-4 text-center">Відправити</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 mt-5 mt-md-0">
+
+                <div class="ml-5">
+
+                    <div class="my-2">
+                        <h4 class="colo-b">Адреса</h4>
+                        <p class="gray-color">м. Київ, вул. В. Черновола 1, 3 поверх</p>
+                    </div>
+
+                    <div class="my-5">
+                        <h4 class="colo-b">Контакти</h4>
+                        <p class="gray-color m-1">hello@kolirstudio.com.ua</p>
+                        <p class="gray-color m-1">+38 (050) 315 91 91</p>
+                        <p class="gray-color m-1">vg-group.com</p>
+                    </div>
+
+                    <div class="d-flex">
+                        <a href="#" class="m-2"><img src="./img/insta.svg" alt="instagram"></a>
+                        <a href="#" class="m-2"><img src="./img/facebook.svg" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<footer class="bg-dark p-5 text-center ">
+    <p class="text-white m-0">Copyright © All right reserved | <a href="http://karpenko.studio/">karpenko.studio</a></p>
+</footer>
+
+<script>
+    $('.carousel').carousel({
+        interval: 100000
+    })
+</script>
+<script src="js/index.js"></script>
+<script src="js/discountGenerator.js"></script>
+<script src="js/modal.js"></script>
+</body>
+</html>
